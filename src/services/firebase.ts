@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCZPtyqjEejOjQblJftcvTUha_Ft7RyJEY",
-  authDomain: "vict-dc9dc.firebaseapp.com",
-  projectId: "vict-dc9dc",
-  storageBucket: "vict-dc9dc.firebasestorage.app",
-  messagingSenderId: "205504802411",
-  appId: "1:205504802411:web:30068b16d95c9a4c38cb2e"
+  apiKey: "AIzaSyDummyKeyForBuildOnly12345",
+  authDomain: "vict-app.firebaseapp.com",
+  projectId: "vict-app",
+  storageBucket: "vict-app.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abcdef"
 };
 
 const app = initializeApp(firebaseConfig);
