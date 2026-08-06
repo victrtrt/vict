@@ -12,7 +12,7 @@ export const submitVisitReport = async (report: VisitReport): Promise<void> => {
       await addDoc(collection(db, 'visit_reports'), report);
 
       // ۲. ارسال به گوگل شیت
-      if (GOOGLE_SHEET_URL && GOOGLE_SHEET_URL !== 'https://script.google.com/macros/s/کد_اختصاصی_گوگل_شیت_شما/exec') {
+      if (GOOGLE_SHEET_URL && GOOGLE_SHEET_URL !== 'https://script.google.com/macros/s/AKfycbzivirqpLdVillSeoklvlnCMDliy_z9svPWx-ZNwtakaFRPueIEw22TSlvrayLqM5KW/exec') {
         fetch(GOOGLE_SHEET_URL, {
           method: 'POST',
           mode: 'no-cors',
